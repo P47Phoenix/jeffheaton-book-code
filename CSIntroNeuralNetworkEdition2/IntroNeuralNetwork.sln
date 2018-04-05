@@ -1,6 +1,8 @@
 ﻿
-Microsoft Visual Studio Solution File, Format Version 10.00
-# Visual C# Express 2008
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.27428.2005
+MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HeatonResearchNeural", "HeatonResearchNeural\HeatonResearchNeural.csproj", "{D624CAB2-2A2E-4236-ACA6-7FD0256C9D0E}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HeatonResearchSpider", "HeatonResearchSpider\HeatonResearchSpider.csproj", "{632A1460-BB77-4DE8-A699-E828BD0B0864}"
@@ -130,5 +132,8 @@ Global
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {B3AFBE94-F697-4758-B0B7-E6841FC31556}
 	EndGlobalSection
 EndGlobal
