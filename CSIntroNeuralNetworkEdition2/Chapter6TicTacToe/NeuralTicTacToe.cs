@@ -159,10 +159,13 @@ namespace Chapter6TicTacToe
             FeedforwardNetwork network = createNetwork();
             // train the neural network
             Console.WriteLine("Determining initial scores");
-            TicTacToeGenetic train = new TicTacToeGenetic(network, true,
-                   NeuralTicTacToe.POPULATION_SIZE,
-                   NeuralTicTacToe.MUTATION_PERCENT, NeuralTicTacToe.MATE_PERCENT,
-                   this.player2.GetType());
+            TicTacToeGenetic train = new TicTacToeGenetic(
+                network, 
+                true,
+                NeuralTicTacToe.POPULATION_SIZE,
+                NeuralTicTacToe.MUTATION_PERCENT, 
+                NeuralTicTacToe.MATE_PERCENT,
+                this.player2.GetType());
             train.UseThreadPool = true;
             ThreadPool.SetMaxThreads(NeuralTicTacToe.THREAD_POOL_SIZE, NeuralTicTacToe.THREAD_POOL_SIZE);
             int epoch = 1;

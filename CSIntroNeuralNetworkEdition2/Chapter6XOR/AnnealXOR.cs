@@ -54,6 +54,9 @@ namespace Chapter6XOR
                 Console.WriteLine(XOR_INPUT[i][0] + "," + XOR_INPUT[i][1]
                         + ", actual=" + actual[0] + ",ideal=" + XOR_IDEAL[i][0]);
             }
+
+            Console.WriteLine("Press enter to close");
+            Console.ReadLine();
         }
     }
 }
