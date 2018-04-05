@@ -24,6 +24,8 @@ namespace Chapter04Hebb
             Hebb hebb = new Hebb();
             hebb.run();
 
+            Console.WriteLine("Press enter to close");
+            Console.ReadLine();
         }
 
         /// <summary>

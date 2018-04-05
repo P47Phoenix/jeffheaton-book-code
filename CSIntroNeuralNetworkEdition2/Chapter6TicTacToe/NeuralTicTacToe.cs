@@ -143,6 +143,11 @@ namespace Chapter6TicTacToe
                 Console.WriteLine(t);
                 Console.WriteLine(t.StackTrace);
             }
+            finally
+            {
+                Console.WriteLine("Press enter to close");
+                Console.ReadLine();
+            }
         }
 
         private Player player1;
